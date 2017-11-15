@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>船票网</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<!--header begin-->
+	<div id="header">
+		<img src="images/logo.gif" alt="logo"/>
+		<span id="">
+			<a href=""><img src="images/loginbg.gif" alt="menu图标"/>登录</a>
+			<i>|</i>
+			<a href="">注册</a>
+			<i>|</i>
+			<a href="">客户服务</a>
+		</span>
+	</div>
+	<!--header over-->
+	<!--main begin-->
+	<div id="main">
+		<!--title begin-->
+		<div id="title">
+			<a href="">预定船票</a>
+			<span>&nbsp;>&nbsp;订单填写</span>
+			<div id="luxian">
+				<ul>
+					<li>
+						大连&nbsp;——&nbsp;普兰店&nbsp;（&nbsp;4月28日&nbsp;周六&nbsp;
+						<span class="highlight">15:30</span>
+						&nbsp;开船&nbsp;）
+					</li>
+					<li>地点：大连港</li>
+					<li>船名：张扬而语</li>
+				</ul>
+			</div>
+		</div>
+		<!--title over-->
+		<!--票价信息 begin-->
+		<div id="piaojia">
+			<h2>票价信息</h2>
+			<div id="piaojia-content">
+				<p>单次预订限5张</p>
+				<ul>
+					<li>普通：<span class="highlight">￥315（280+20+15）</span></li>
+					<li>学生：<span class="highlight">￥315（280+20+15）</span></li>
+					<li>军人：<span class="highlight">￥315（280+20+15）</span></li>
+					<li>儿童：<span class="highlight">￥315（280+20+15）</span></li>
+					<li><a href="">[说明]</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--票价信息 over-->
+		<!--乘船人信息 begin-->
+		<div id="chengchuan">
+			<h2>乘船人信息</h2>
+			<div id="chengchuan-content">
+				<div id="chengchuan-content-title">
+					<span id="person">常用乘船人</span>
+					&nbsp;&nbsp;
+					<span id="defaultPassenger">
+						<!--默认乘船人姓名-->
+					</span>
+					<span style="display: none;" id="passengerBlock">
+						<!--<label>
+							<input type="checkbox" />徐振豪
+						</label>
+						<label>
+							<input type="checkbox" />魏玮
+						</label>
+						<label>
+							<input type="checkbox" />壮壮
+						</label>
+						<label>
+							<input type="checkbox" />大拿
+						</label>
+						<label>
+							<input type="checkbox" />大王
+						</label>-->
+						
+						<!--其他乘船人姓名-->
+					</span>
+					&nbsp;&nbsp;
+					<a href="javascript:;" id="moreBtn">更多>></a>
+				</div>
+				<div id="chengchuan-content-main">
+					<!--<ul>
+						<li>
+							<select>
+								<option value="">普通 ￥ 315</option>
+							</select>
+						</li>
+						<li>
+							姓名：<input type="text" value="张强" />
+						</li>
+						<li>
+							<select>
+								<option value="">身份证</option>
+							</select>
+							<input type="" id="" value="150141199608235576" />
+						</li>
+						<li>
+							电话：<input type="text" value="15524839615" />
+						</li>
+						<li>
+							<input type="button" id="" value="删除当前" />
+						</li>
+					</ul>-->
+					
+					<!--乘船人列表条目-->
+				</div>
+				<a href="javascript:;" id="add"><img src="images/regbtn9.gif"/></a>
+			</div>
+		</div>
+		<!--乘船人信息 over-->
+		<!--取票人信息 begin-->
+		<div id="qupiao">
+			<h2>取票人信息</h2>
+			<div id="qupiao-content">
+				<div id="qupiao-content-title">
+					<span>取票人</span>
+					&nbsp;&nbsp;						
+					<lable>
+						<input type="radio" /> 壮壮
+					</lable>
+					<span style="display: none;">
+					<lable>
+						<input type="checkbox" />徐振豪
+					</lable>
+					<lable>
+						<input type="checkbox" />魏玮
+					</lable>
+					<lable>
+						<input type="checkbox" />张强
+					</lable>
+					<lable>
+						<input type="checkbox" />大拿
+					</lable>
+					<lable>
+						<input type="checkbox" />大王
+					</lable>
+					</span>
+					&nbsp;&nbsp;
+					<a href="">更多>></a>
+				</div>
+				<div>
+					<ul>
+						<li>张强</li>
+						<li>身份证</li>
+						<li>150401199608235576</li>
+						<li>15524839615</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--取票人信息 over-->
+		<!--提交订单 begin-->
+		<div id="submit">
+			<div id="wrapper">
+				<span>
+					共<span class="highlight" id="ticketCountTxt">0</span>张票&nbsp;
+					订单总额<span class="highlight" style="font-size: 18px;" id="totalPriceTxt"> ￥880</span>
+				</span>
+				<a href="images/"><img src="images/regbtn10.gif"/></a>
+			</div>
+		</div>
+		<!--提交订单 over-->
+	</div>
+	<!--main over-->
+	
+	<!--footer begin-->
+	<div id="footer">
+		<p>
+			关于我们&nbsp;|&nbsp;联系我们&nbsp;|&nbsp;投诉建议&nbsp;|&nbsp;广告服务&nbsp;|&nbsp;免责声明
+		</p>
+		<p>
+			大连XX有限公司，售票业务经营许可证编号：1111111
+		</p>
+		<p>
+			Copyright&nbsp;©&nbsp;2014船票网 www.xxx.com&nbsp;|&nbsp;营业执照&nbsp;|&nbsp;ICP证：辽XX-2000000
+		</p>
+	</div>
+	<!--footer over-->
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	
+</body>
+</html>

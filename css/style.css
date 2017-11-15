@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+/*设置背景图片字体*/
+body{
+	background: url(../images/bg.png) no-repeat top center;
+	font-family: '宋体',"微软雅黑";
+}
+
+/*******************header******************/
+#header {
+	width: 1000px;
+	height:105px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+/*图片左浮动*/
+#header img {
+	float:left;
+}
+/*登录区右浮动*/
+#header span {
+	height:21px;
+	line-height:21px;
+	margin-top:16px;
+	float:right;
+	color:#fff;
+}
+/*斜体变正常*/
+#header span i {
+	font-style: normal;
+	padding: 0 10px;
+}
+/*文字颜色*/
+#header span a {
+	color:#fff;
+}
+/*文字移上效果*/
+#header span a:hover {
+	text-decoration:underline;
+}
+
+/*文字高亮*/
+.highlight {
+	color:#f60;
+}
+/********************main******************/
+
+#main {
+	width: 1000px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	overflow:hidden;
+}
+/******************title******************/
+ #main #title {
+	width: 965px;
+	margin: 15px auto 0;
+}
+
+#main #title a {
+	height:40px;
+	line-height:40px;
+	color:#0880dc;
+}
+/*鼠标移上有下划线，高亮*/
+#main #title a:hover {
+	text-decoration: underline;
+	color:#f60;
+}
+
+#luxian {
+	background: #f7f7f7;
+	border-top:2px solid #2a98da;
+	overflow: hidden;
+}
+
+#luxian li {
+	height:53px;
+	line-height:53px;
+	float:left;
+	font-size:18px;
+	margin-left: 60px;
+}
+
+/****************票价信息****************/
+#piaojia {
+	width: 965px;
+	margin:27px auto 0;
+}
+
+#piaojia h2 {
+	color: ##333333;
+	font-size: 14px;
+}
+
+#piaojia-content {
+	margin: 10px auto 0;
+	border: 1px solid #ace0ff;
+	padding: 27px;
+	overflow: hidden;
+}
+
+#piaojia-content p {
+	/*margin: 27px 27px 0;*/
+}
+
+#piaojia-content ul {
+	height:34px;
+	margin-top: 10px;
+}
+
+#piaojia-content ul li {
+	width:22.5%;
+	line-height: 34px;
+	float:left;
+}
+
+#piaojia-content ul li:last-child {
+	width: 10%;
+}
+
+#piaojia-content ul li a {
+	color: #0880DC;
+}
+
+#piaojia-content ul li a:hover {
+	color: #FF6600;
+	text-decoration;
+}
+
+/**************乘船人信息**************/
+
+#chengchuan {
+	width: 965px;
+	margin: 27px auto 0;
+}
+
+#chengchuan h2 {
+	color: ##333333;
+	font-size: 14px;
+}
+/*************常用乘船人**************/
+#chengchuan #chengchuan-content {
+	margin: 10px auto 0;
+	border: 1px solid #ace0ff;
+	padding: 15px;
+	overflow: hidden;
+}
+
+#chengchuan-content #chengchuan-content-title {
+	height: 50px;
+	border: 1px solid #ddd;
+	line-height: 50px;
+	padding-left:15px;
+	background: #f5f5f5;
+}
+
+#chengchuan-content-title #person {
+	font-weight: bold;
+}
+
+#chengchuan-content-title a {
+	color: #0880DC;
+}
+
+#chengchuan-content-title a:hover{
+	color: #FF6600;
+	text-decoration:underline;
+}
+
+/*************订单信息**************/
+#chengchuan-content-main ul {
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+#chengchuan-content-main ul li {
+	height: 40px;
+	line-height: 40px;
+	margin-right: 20px;
+	float: left;
+}
+/*调整下拉列表框位置*/
+#chengchuan-content-main select {
+	position: relative;
+	top: 3px;
+}
+
+#chengchuan-content #add {
+	display: block;
+	width: 90px;
+	height: 23px;
+	margin-top: 10px;
+}
+
+/*************取票人信息**************/
+#qupiao {
+	width: 965px;
+	margin: 27px auto 0;
+}
+
+#qupiao h2 {
+	color:#333333;
+	font-size: 14px;
+}
+
+#qupiao-content {
+	margin: 10px auto 0;
+	border: 1px solid #ACE0FF;
+	padding: 15px;
+	overflow: hidden;
+}
+
+#qupiao-content #qupiao-content-title {
+	height: 50px;
+	line-height: 50px;
+	background: #F5F5F5;
+	border: 1px solid #DDDDDD;
+	padding-left: 15px;
+}
+
+#qupiao-content-title a {
+	color: #0880DC;
+}
+
+#qupiao-content-title a:hover {
+	color: #FF6600;
+	text-decoration:underline;
+}
+
+#qupiao ul li {
+	height: 40px;
+	line-height: 40px;
+	width: 25%;
+	float:left;
+	text-align: center;
+}
+
+/*************提交订单**************/
+#submit {
+	width: 965px;
+	height: 70px;
+	margin: 30px auto 5px;
+	border: 1px solid #fed7a7;
+	background: #fff8ee;
+	
+}
+
+#submit #wrapper {
+	width: 370px;
+	height: 70px;
+	line-height: 70px;
+	float: right;
+}
+
+#submit #wrapper>span {
+	float: left;
+	width: 180px;
+}
+
+#submit #wrapper a {
+	display: block;
+	width: 190px;
+	height: 70px;
+	float: right;
+}
+
+#submit #wrapper a img {
+	vertical-align: middle;
+}
+
+/*************footer**************/
+#footer {
+	color:#999;
+	background: #F5F5F5;
+	padding: 20px;
+	overflow: hidden;
+}
+
+#footer p {
+	text-align: center;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
